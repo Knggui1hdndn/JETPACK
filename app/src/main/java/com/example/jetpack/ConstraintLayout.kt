@@ -29,8 +29,9 @@ class ConstraintLayout : ComponentActivity() {
             val constraints = ConstraintSet {
                 val greenBox = createRefFor("greenBox")
                 val redBox = createRefFor("redBox")
+                val guideline=createGuidelineFromTop(0.5f) //khoảng cách so vơi top parent
                 constrain(greenBox) {
-                    top.linkTo(parent.top)
+                    top.linkTo(guideline)
                     start.linkTo(parent.start)
                     width = Dimension.value(100.dp)
                     height = Dimension.value(100.dp)

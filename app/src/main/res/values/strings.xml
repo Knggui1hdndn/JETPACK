@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Jetpack</string>
     <string name="title_activity_constraint_layout">ConstraintLayout</string>
+    <string name="title_activity_effect_handlers">EffectHandlers</string>
 </resources>
